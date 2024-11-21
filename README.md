@@ -6,7 +6,7 @@
 - Armando Adrian Pérez González
 
 ## Code Explanation
-ISING model is a form of simulating continuous phase transitions. The model consists on defining $N$ magnetic dipole moments of atomic spins $\sigma$ in a mesh. The spins only can take two states in the form of $\sigma \in [-1,1]$, interacting periodically with its neighbors. The internal energy of the sysem  is given by the hamiltonian:
+ISING model is a form of simulating continuous phase transitions. The model consists on defining $N$ magnetic dipole moments of atomic spins $\sigma$ in a mesh. The spins only can take two states in the form of $\sigma \in [-1,1]$, interacting periodically with their neighbors. The internal energy of the sysem  is given by the hamiltonian:
 
 $$
 \mathcal{H}(\vec{\sigma})=-J \sum_{i} \sum_{j=\mathbb{N}} \sigma_i \sigma_j -B \sum_{i} \sigma_i,
